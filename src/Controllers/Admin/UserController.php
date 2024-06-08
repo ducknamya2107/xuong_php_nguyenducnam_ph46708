@@ -167,6 +167,7 @@ class UserController extends Controller
             $_SESSION['msg'] = 'Edit thành công';
 
             header('Location: ' . url("admin/users/{$user['id']}/edit"));
+            header('Location: ' . url('admin/users'));
             exit;
         }
     }
