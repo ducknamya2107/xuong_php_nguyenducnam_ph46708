@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+header{
+    width: 100%;
+    height: 100px;
+    background-color:rgb(6,8,7);
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 40px;
+}
+.menu{
+    display: flex;
+   
+}
+.menu ul li{
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 30px;
+    
+}
+.menu a {
+    text-decoration: none;
+    font-size: larger;
+    color: aliceblue;
+    padding: 39px;
+    
+}
+.menu a:hover{
+    background-color: rgb(82,82,82);
+}
+.list-icon{
+    display: flex;
+    padding: 30px;
+    margin: 5px;
+}
+
+.search{
+    margin-right: 10px;
+}
+.search-bar{
+    background-color: aliceblue;
+    width: 150px;
+    height: 25px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.search-bar a{
+    text-decoration: none;
+    font-size: small;
+}
+.search-bar a:hover{
+    color: darkgrey;
+}
+.user{
+    margin-right: 10px;
+}
+/* Main */
+.click-button{
+    display: flex;
+}
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-text {
+    position: absolute;
+    top: 230px; /* Điều chỉnh vị trí top theo ý muốn */
+    left: 40px; /* Điều chỉnh vị trí left theo ý muốn */
+    color: rgb(0, 0, 0); /* Màu chữ */
+    /* background-color: rgba(0, 0, 0, 0.5); Màu nền của phông chữ (độ trong suốt) */
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    font-size: 60px;
+}
+.image-text2{
+    position: absolute;
+    top: 330px; /* Điều chỉnh vị trí top theo ý muốn */
+    left: 40px; /* Điều chỉnh vị trí left theo ý muốn */
+    color: rgb(0, 0, 0); /* Màu chữ */
+    /* background-color: rgba(0, 0, 0, 0.5); Màu nền của phông chữ (độ trong suốt) */
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    font-size: 30px;
+}
+.image-text3{
+    position: absolute;
+    top: 380px; /* Điều chỉnh vị trí top theo ý muốn */
+    left: 40px; /* Điều chỉnh vị trí left theo ý muốn */
+    color: rgb(26, 21, 163); /* Màu chữ */
+    /* background-color: rgba(0, 0, 0, 0.5); Màu nền của phông chữ (độ trong suốt) */
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    font-size: 20px;
+}
+.khamphangay{
+    position: absolute;
+    top: 380px; /* Điều chỉnh vị trí top theo ý muốn */
+    left: 40px; /* Điều chỉnh vị trí left theo ý muốn */
+    /* background-color: rgba(0, 0, 0, 0.5); Màu nền của phông chữ (độ trong suốt) */
+    padding: 5px;
+}
+.khamphangay:hover{
+    background-color: darkgrey;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.spnew{
+    margin-left: 30px;
+}
+.spnew :hover{
+    color: darkgray;
+   
+}
+.sphot{
+    margin-left:  40px;
+}
+.sphot :hover{
+    color: darkgray;
+   
+}
+.gach{
+    margin-left:35px;
+}
+
+.box-shirt{
+   
+}
+.list-sp{
+    display: flex;
+    justify-content: space-between;
+}
+.selectcolor{
+    margin-left: 20px;
+}
+button{
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+
+}
+
+/* Footer */
+footer{
+    background-color: black;
+}
+.fist-foot{
+    height: 180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.noidung{
+    margin-left: 130px;
+    margin-top: 20px;
+    height: 80%;
+    width: 25%;
+    
+}
+.noidung h4{
+    margin: 0 10px 10px 0;
+    color: white;
+    font-size: 21px;
+}
+.noidung p{ 
+    margin: 0 10px 20px 0;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.noidung a{
+    padding: 10px 20px;
+    background-color:dodgerblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.hotline{
+   margin-top: 40px;
+}
+.hotline p{
+    color: white;
+    font-weight: bolder;
+}
+.icons{
+    color: white;
+    width: 20%;
+    margin-top: 40px;
+    margin-right: 100px;
+}
+.icons i{
+   margin: 10px;
+   font-size: 30px;
+}
+
+.last-foot{
+    width: auto;
+    height: 150px; 
+}
+.gach{
+    margin-left: 130px;
+    width: 80%;
+}
+.duoi{
+    display: flex;
+    margin-left: 130px;
+    justify-content: space-between;
+    width: 80%;
+}
+.content{
+    margin-top: 20px;
+}
+.content h4{
+    margin-bottom: 20px;
+    color: white;
+}
+.content p {
+    margin-top: 10px;
+    color: white;
+}

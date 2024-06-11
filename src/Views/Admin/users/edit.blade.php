@@ -50,7 +50,7 @@
             <input type="text" class="form-control" id="password" placeholder="Enter password" name="password">
         </div>
 
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary">Cập nhật</button>
     </form>
 </body>
 

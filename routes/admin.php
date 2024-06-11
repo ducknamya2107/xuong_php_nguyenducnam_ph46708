@@ -1,6 +1,15 @@
 <?php
+
 use Nam\Xuongoop\Controllers\Admin\DashboardController;
 use Nam\Xuongoop\Controllers\Admin\UserController;
+
+// $router->before('GET|POST', '/admin/*.*', function () {
+//     if (!isset($_SESSION['user'])) {
+//         header('location: ' . url('login'));
+//         exit();
+//     }
+// });
+
 
 $router->mount('/admin', function () use ($router) {
 
@@ -15,5 +24,4 @@ $router->mount('/admin', function () use ($router) {
         $router->post('/{id}/update',   UserController::class . '@update');
         $router->get('/{id}/delete',    UserController::class . '@delete');
     });
-    
 });

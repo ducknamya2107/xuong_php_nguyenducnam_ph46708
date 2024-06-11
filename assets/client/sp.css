@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+header{
+    width: 100%;
+    height: 100px;
+    background-color:rgb(6,8,7);
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 40px;
+}
+.menu{
+    display: flex;
+   
+}
+.menu ul li{
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
+    margin-top: 30px;
+    
+}
+.menu a {
+    text-decoration: none;
+    font-size: larger;
+    color: aliceblue;
+    padding: 39px;
+    
+}
+.menu a:hover{
+    background-color: rgb(82,82,82);
+}
+.list-icon{
+    display: flex;
+    padding: 30px;
+    margin: 5px;
+}
+
+.search{
+    margin-right: 10px;
+}
+.search-bar{
+    background-color: aliceblue;
+    width: 150px;
+    height: 25px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.search-bar a{
+    text-decoration: none;
+    font-size: small;
+}
+.search-bar a:hover{
+    color: darkgrey;
+}
+.user{
+    margin-right: 10px;
+}
+/* Main */
+.container-box{
+    display: flex;
+}
+.vertical-line {
+    border-left: 1px solid #000; /* Đặt kiểu và màu cho đường dọc */
+    height: 930px; /* Đặt chiều cao của đường dọc */
+    margin: 0 10px; /* Điều chỉnh khoảng cách xung quanh đường dọc */
+}
+
+input{
+    width: 400px;
+    height: 35px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    margin-left: 60px;
+    border:0.1px solid ;
+    padding-left: 15px;
+}
+#sdt{
+    margin-left: 0px;
+}
+#email{
+    width: 805px;
+}
+#location{
+    width: 805px;
+}
+select{
+    padding-left: 10px;
+    width: 225px;
+    height: 30px;
+    border:0.1px solid ;
+    border-radius: 20px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+#province{
+    margin-left: 0px;
+}
+#chon{
+    
+}
+option{
+   
+}
+#comment{
+    height: 35px;
+    width: 805px;
+}
+.pay{
+    margin-bottom: 10px;
+    
+}
+.payinput{
+    width: 805px;
+  
+    
+}
+.boxpay{
+    border: 1px solid;
+    width: 805px;
+    margin-left: 60px;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    
+}
+.boxten{
+    padding-left: 70px;
+    
+    align-items: center;
+}
+.payinput{
+   
+}
+input[type="radio"] {
+    width: 20px; /* Đặt chiều rộng của radio button */
+    height: 30px; /* Đặt chiều cao của radio button */
+    margin-top:1px; /* Xóa khoảng cách xung quanh radio button */
+    border: 1px solid #000; /* Đặt viền cho radio button */
+    border-radius: 50%; /* Làm cho radio button có hình dạng tròn */
+   
+  }
+  #thanhtoan{
+    width: 805px;
+    height: 55px;
+  }
+  #thanhtoan:hover{
+    background-color: darkgrey;
+  }
+  #selectcolor{
+    width: 70px;
+    margin-left: 0px;
+  }
+  #selectsize{
+    width: 70px;
+    margin-left: 0px;
+  }
+  #soluong{
+    width: 70px;
+    margin-left: 0px;
+  }
+  .giohang{
+    margin-left: 30px;
+    display: flex;
+    
+  }
+  #codesale{
+    width: 750px;
+    margin-left: 30px;
+    
+  }
+  #apdung{
+    width: 100px;
+    margin-left: 0px;
+    padding: 0px;
+  }
+  #apdung:hover{
+    background-color: darkgrey;
+  }
+  .tinhtien{
+    margin-left: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .tinhtienn p{
+    margin-bottom: 10px;
+  }
+ img{
+    border-radius: 20px;
+  }
+/* footer */
+footer{
+    background-color: black;
+}
+.fist-foot{
+    height: 180px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.noidung{
+    margin-left: 130px;
+    margin-top: 20px;
+    height: 80%;
+    width: 25%;
+    
+}
+.noidung h4{
+    margin: 0 10px 10px 0;
+    color: white;
+    font-size: 21px;
+}
+.noidung p{ 
+    margin: 0 10px 20px 0;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.noidung a{
+    padding: 10px 20px;
+    background-color:dodgerblue;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.hotline{
+   margin-top: 40px;
+}
+.hotline p{
+    color: white;
+    font-weight: bolder;
+}
+.icons{
+    color: white;
+    width: 20%;
+    margin-top: 40px;
+    margin-right: 100px;
+}
+.icons i{
+   margin: 10px;
+   font-size: 30px;
+}
+
+.last-foot{
+    width: auto;
+    height: 150px; 
+}
+.gach{
+    margin-left: 130px;
+    width: 80%;
+}
+.duoi{
+    display: flex;
+    margin-left: 130px;
+    justify-content: space-between;
+    width: 80%;
+}
+.content{
+    margin-top: 20px;
+}
+.content h4{
+    margin-bottom: 20px;
+    color: white;
+}
+.content p {
+    margin-top: 10px;
+    color: white;
+}
